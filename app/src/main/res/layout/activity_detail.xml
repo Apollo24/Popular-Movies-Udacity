@@ -28,11 +28,10 @@
 
     <ImageView
         android:id="@+id/details_imageview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/details_movie_title"
-        android:paddingTop="4dp"
-        android:paddingLeft="4dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/details_user_rating"
+        android:gravity="center"
          />
 
 
@@ -44,7 +43,7 @@
         android:textStyle="bold"
         android:paddingLeft="4dp"
         android:textSize="@dimen/detail_label_text_size"
-        android:layout_toRightOf="@+id/details_imageview"
+
         android:layout_below="@+id/details_movie_title"
          />
 
@@ -55,7 +54,7 @@
         android:layout_height="wrap_content"
         android:textSize="@dimen/detail_label_text_size"
         android:paddingLeft="4dp"
-        android:layout_toRightOf="@+id/details_imageview"
+
         android:layout_below="@+id/details_release_date_label"
         />
 
@@ -67,7 +66,7 @@
         android:text="@string/detail_user_rating_label"
         android:paddingLeft="4dp"
         android:textStyle="bold"
-        android:layout_toRightOf="@+id/details_imageview"
+
         android:layout_below="@+id/details_release_date"
 
          />
@@ -79,7 +78,7 @@
         android:textSize="@dimen/detail_label_text_size"
         android:paddingLeft="4dp"
         android:textColor="#ff0000"
-        android:layout_toRightOf="@+id/details_imageview"
+
         android:layout_below="@+id/details_user_rating_label"
          />
 
@@ -92,8 +91,6 @@
         android:layout_below="@+id/details_imageview"
         android:text="The plot:"
         />
-
-
 
 
     <TextView
